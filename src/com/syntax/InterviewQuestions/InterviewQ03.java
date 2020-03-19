@@ -1,4 +1,4 @@
-package InterviewQuestions;
+package com.syntax.InterviewQuestions;
 
 public class InterviewQ03 {
 
