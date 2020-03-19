@@ -7,6 +7,7 @@ public class InterviewQ04 {
 		
 		Scanner scan;
 		String str;
+		String str2;
 		int counter=0;
 		String s="";
 		scan=new Scanner (System.in);
@@ -16,6 +17,15 @@ public class InterviewQ04 {
 		str=str.replaceAll("[^A-Za-z]", "");
 		System.out.println("Alpha characters : "+str.length());
 		
+		System.out.println("Enter your second String");
+		str2=scan.nextLine();
+		
+		String [] words =str2.split(" ");
+		for (String word : words) {
+			counter++;
+			
+		}
+		System.out.println(counter);
 		
 		
 		
