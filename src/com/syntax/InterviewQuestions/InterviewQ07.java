@@ -1,9 +1,9 @@
 package com.syntax.InterviewQuestions;
 
-public class InterviewQ05 {
+public class InterviewQ07 {
 
 	public static void main(String[] args) {
-		// Write a java program to reverse String? Reverse a string word by word?
+		// Write a java program to find the second largest number in the array? Maximum and minimum number in the array?
 
 		
 		
