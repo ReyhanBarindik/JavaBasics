@@ -8,7 +8,7 @@ public class InterviewQ07 {
 		int [] arr = {80, 20, 100, 30, 40, 10, 50, 6};
 		
 		int maxNum=arr[0];
-		int secondLargestNum=arr[0];
+		
 		int minNum=arr[0];
 		
 	    
@@ -19,7 +19,7 @@ public class InterviewQ07 {
 				minNum=a;
 			}
 		}
-		
+		int secondLargestNum=minNum;         //initialized ettik. sonra karsilastirma yapacagiz.
 		for (int a : arr) {
 			if (a>secondLargestNum &&  a != maxNum) {
 				secondLargestNum=a;
