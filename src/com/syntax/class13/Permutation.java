@@ -4,7 +4,7 @@ public class Permutation {
 
 	public static void main(String[] args) {
 	
-	// Print all permutations of a string in Java (like "123") output: 123, 231, 321, 132, 231,...   ab 
+	// Print all permutations of a string in Java (like "123") output: 123, 231, 321, 132, 231,...   
 		
 	 Scanner scan;
 	 String str;
