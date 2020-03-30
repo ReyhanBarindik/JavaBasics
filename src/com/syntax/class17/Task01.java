@@ -5,7 +5,7 @@ public class Task01 {
       * Method should be visibly only within same package and accessible by the creating an instance of the class.
       */
 
-       static int sumElements (int [] arr) {
+       protected int sumElements (int [] arr) {
     	  int sum=0;
     	  for (int i=0; i<arr.length; i++) {
     		  sum= sum+arr[i];
