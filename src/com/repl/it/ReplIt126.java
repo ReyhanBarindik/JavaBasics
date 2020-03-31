@@ -13,7 +13,7 @@ public class ReplIt126 {
 		return sum;	
 		
 	}
-
+     
 	
 	//test case below (dont change):
 	public static void main(String[] args){
@@ -21,3 +21,4 @@ public class ReplIt126 {
 		System.out.println(thirdLetter("technology")); //"thly"
 	}
 }
+   
