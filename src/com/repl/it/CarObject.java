@@ -3,30 +3,32 @@ package com.repl.it;
 public class CarObject {
 
 	String model;
-    String quantity;
 	double price;
+	int quantity;
 	
-	CarObject (String model, String quantity,  double price) {
+	
+	CarObject (String model, double price, int quantity) {
 		this.model=model;
-		this.quantity=quantity;
 		this.price=price;
+		this.quantity=quantity;
 		
 	}
 	
-	public int carStockValue  () {
-		
-		int totalValue=0;
-	    for (int i=0; i<carStock.length(); i++) {
-	    	totalValue= totalValue+i;
-	    }
-		return totalValue;
+    double carStockValue () {
+		double total=0;
+		total= price* quantity;
+		return total;
 	}
+    void display () {
+    	System.out.println(model+" Stock Value "+carStockValue());
+    }
 	
 	
 	public static void main(String[] args) {
-		CarObject obj= new CarObject("Toyota 2019","Stock Value" ,2500000.0);
-		
-       
+		CarObject x =new CarObject ("Toyota 2019",250000,10);
+		CarObject y= new CarObject ("BMW 2019",65298,10);
+		x.display();
+        y.display();
         
 	}
 
