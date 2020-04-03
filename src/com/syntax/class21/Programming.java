@@ -9,20 +9,18 @@ public class Programming {
 	Example, if we pass “Java”, then “I love Java” should be printed.
 	*/
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+	Programming () {
+		System.out.println("I love programming languages");
+	}
+	String language;
+	Programming (String language) {
+		this.language=language;
+		System.out.println("I love "+language);
+	}
 	
 	public static void main(String[] args) {
+		Programming y= new Programming ();
+		Programming x = new Programming ("Java");
 		
 
 	}
