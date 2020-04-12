@@ -74,4 +74,10 @@ class SchoolBus extends Bus {
 	public void start () {
 		System.out.println(make +" starts more protected way");
 	}
+	public void drive () {
+		System.out.println(make +" drives...");
+	}
+	public void stop () {
+		System.out.println(make +" stops...");
+	}
 }
