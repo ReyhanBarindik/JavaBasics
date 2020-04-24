@@ -18,8 +18,6 @@ public class ReplIt186 {
 		
 		
 		
-		
-		
 	}
 
 	public static boolean prime(int num) {
