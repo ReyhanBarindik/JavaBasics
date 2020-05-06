@@ -12,9 +12,9 @@ public class ReplIt203 {
 		Map <String, String> map= new HashMap<>();
 		map.put("ONE","AAA");
 		map.put("TWO","BBB");
-		map.put("THREE","CCC");
+		map.put("THREE",null);
 		map.put("FOUR","DDD");
-		map.put("FIVE","EEE");
+		map.put("FIVE",null);
 
 		
 		Set<Entry<String,String>> sets= map.entrySet();
@@ -26,8 +26,9 @@ public class ReplIt203 {
 			System.out.println(x.getKey()+" : "+x.getValue());
 			
 		}
-		map.replace("THREE", "CCC", "ASEL");
-		map.replace("FIVE", "EEE", "SUMAIR");
+		map.replace("THREE", null, "ASEL");
+		map.replace("FIVE", null, "SUMAIR");
+		
 		Iterator <Entry<String,String>> itS= sets.iterator();
 		System.out.println("HashMap After Replace :");
 		while (itS.hasNext()) {

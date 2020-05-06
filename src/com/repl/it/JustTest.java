@@ -5,9 +5,8 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.Set;
 import java.util.List;
-public class ReplIt205 {
-
-	public static void main(String[] args) {
+public class JustTest {
+public static void main(String[] args) {
 
 		
 
