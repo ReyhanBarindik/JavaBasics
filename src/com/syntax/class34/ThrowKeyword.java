@@ -12,9 +12,9 @@ public class ThrowKeyword {
 
 		NullPointerException npe = new NullPointerException();
 
-		// throw npe;
+		throw npe;
 		// throwException();
-		withThrow(2000, 2500);
+		//withThrow(2000, 2500);
 
 	}
 

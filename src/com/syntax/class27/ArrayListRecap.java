@@ -39,7 +39,7 @@ public class ArrayListRecap {
 
 		// retrieve single element
 
-		System.out.println(alist.get(1));
+		System.out.println(alist.get(0));
 
 		// retrieve all elements from collection
 

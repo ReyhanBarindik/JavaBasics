@@ -11,7 +11,7 @@ public class ReplIt210 {
 		 * In main method calls method gradeCheck and handle an Exception
 		 * 
 		 */
-		NullPointerException npe = new NullPointerException();
+		
         try {
 		checkGrade(98);
         } catch (SyntaxStudentException se) {
